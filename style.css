@@ -1,0 +1,62 @@
+html {
+    font-size: 16px
+}
+
+p {
+    font-size: 1rem;
+}
+
+.btn {
+    font-size: 1rem;
+}
+
+* {
+    font-family: "Inter", sans-serif;
+}
+
+.home-icon {
+    float: right;
+
+}
+
+.btn-want-to-know-more {
+    background-color: #D0E6FD;
+}
+
+.btn-socials {
+    background-color: #B6CFE4;
+}
+
+img {
+    float: left;
+    margin-right: 10px;
+}
+
+.responsive-img {
+  max-width: 100%; 
+  height: auto;  
+  display: block;
+}
+
+.badge {
+    background-color: black;
+}
+
+.img-head {
+    position: relative;
+    width: 360px; 
+    max-width: 100%;
+}
+
+.img-head .image-hover {
+    position: absolute;
+    object-fit: contain;
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+
+.img-head:hover .image-hover {
+    opacity: 1;
+}
+
+
